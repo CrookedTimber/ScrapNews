@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer{
+    background-color: rgb(33,37,41);
+}
+
+.app-name{
+    color: #e9ecef;
+}
+.nav-link{
+    color: #ffffff8c;
+}
+
+.nav-link:hover {
+    
+    color: #E27689;
+    border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+a{
+    color:grey;
+    text-decoration: none;
+}
+
+
+
+.tg-card{
+    background-color: rgb(4,40,98);
+    color: #fff;
+}
+
+.ib-card{
+    background-color: #FE8301;
+    color: #fff;
+}
+
+.aj-card{
+    background-color: #00529C;
+    color: #D4A10F;
+}
+.art-title{
+    font-weight: bold;
+}
+
+.section-marker{
+    color: #E27689;
+    font-weight: bold;
+}
+
+h5:hover{
+    color: #E27689;
+}
+
+img:hover {
+    opacity: .7;
+}

@@ -1,0 +1,32 @@
+{% include "header.html" %}
+
+  <main class="container mt-5">
+      
+    <div class="row" data-masonry="{&quot;percentPosition&quot;: true }" style="position: relative; height: 690px;">
+
+      {% for source in content: %}
+
+      <div class="col-sm-6 col-lg-4 mb-4" style="position: absolute; left: 0%; top: 0px;">
+        <a href={{source["section_url"]}}> <img src={{source["logo"]}} alt="{{source['logo_alt']}}" class="img-fluid logo mx-auto d-block mb-4"></a>
+
+        {%for article in source["articles"] %}
+        <div class="card mt-3 rounded-3">
+          <a href={{article["url"]}}>
+          <img class="card-img-top rounded-top" src={{article["img"]}} alt={{article["img_alt"]}} />
+  
+          <div class="card-body {{source['card_class']}} rounded-bottom">
+            <h5 class="card-title art-title">{{article["title"]}}</h5>
+            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+          </div>
+        </a>
+   
+        </div>
+
+        {%endfor%}
+
+      </div>
+      {%endfor%}
+    </div>
+    
+  </main>
+  {% include "footer.html" %}
