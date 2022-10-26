@@ -5,6 +5,7 @@
 
 - [Description](#description)
 - [Features](#features)
+- [Live Demo](#live-demo)
 - [Development Notes](#development-notes)
 - [Contact](#contact)
 
