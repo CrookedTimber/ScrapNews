@@ -45,13 +45,13 @@ def get_aj_data(site_dict, max_articles):
 
         aj_articles_array.append(article_dict)
 
-        aj_section = {
-            "source": "Al Jazeera",
-            "section_url": site_dict["url"],
-            "logo": "https://upload.wikimedia.org/wikipedia/en/f/f2/Aljazeera_eng.svg",
-            "logo_alt": "Al Jazeera logo",
-            "articles": aj_articles_array,
-            "card_class": "aj-card",
+    aj_section = {
+        "source": "Al Jazeera",
+        "section_url": site_dict["url"],
+        "logo": "https://upload.wikimedia.org/wikipedia/en/f/f2/Aljazeera_eng.svg",
+        "logo_alt": "Al Jazeera logo",
+        "articles": aj_articles_array,
+        "card_class": "aj-card",
         }
 
     return aj_section
