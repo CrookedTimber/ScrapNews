@@ -89,7 +89,7 @@ def get_tg_articles_info(site_dict, max_articles):
             "url": article_url,
             "img": article.find("img", class_="responsive-img").get("src")
             if article.find("img", class_="responsive-img") is not None
-            else "https://upload.wikimedia.org/wikipedia/commons/6/6a/The_Guardian_2.svg",
+            else "https://cdn.shopify.com/s/files/1/0650/7427/articles/The-Guardian-logo-SQUARE_grande.jpg",
             "img_alt": article.find("img", class_="responsive-img").get("alt")
             if article.find("img", class_="responsive-img") is not None
             else "The Guardian Logo",

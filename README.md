@@ -25,7 +25,7 @@ ScrapNews was born from a desire to automate daily tasks. Reading the news can t
 
 ## Live Demo:
 
-[*ScrapNews*](https://scrapnews.herokuapp.com/)
+[*ScrapNews*](https://scrapnews.onrender.com/)
 
 ## Development Notes
 
