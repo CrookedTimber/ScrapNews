@@ -5,10 +5,6 @@ from article_analysis import (
     get_article_text,
     get_sentiment_analysis,
 )
-from googletrans import Translator
-import json
-
-translator = Translator()
 
 
 def get_articles_section(site_dict):

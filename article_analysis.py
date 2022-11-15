@@ -4,7 +4,7 @@ from textblob import TextBlob
 
 # from wordcloud import WordCloud, STOPWORDS
 # from PIL import Image
-import numpy as np
+# import numpy as np
 
 
 def get_article_text(article_link, site_id):
