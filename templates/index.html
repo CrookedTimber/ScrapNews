@@ -16,7 +16,11 @@
   
           <div class="card-body {{source['card_class']}} rounded-bottom">
             <h5 class="card-title art-title">{{article["title"]}}</h5>
-            <!-- <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+           
+              <h5 class="text-center">Polarity: {{article["sentiment"][0]}}</h5>
+              <h5 class="text-center">Subjectivity: {{article["sentiment"][1]}}</h5>
+
+        
           </div>
         </a>
         </div>
